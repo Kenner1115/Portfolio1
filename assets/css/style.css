@@ -163,7 +163,7 @@ text-align: center;
   transform: translateY(-50%);
 }
 .graphic{
-    height:100%;
+    height:143%;
   width:50%;
   background-color: white;
   position: absolute;
@@ -203,7 +203,7 @@ height:50%;
 width:50%;
 background-color:#333333;
 position: absolute;
-top:511%;
+top:553%;
 right:50%;
 }
 .contacttext{
@@ -221,7 +221,7 @@ right:50%;
 	height:50%;
 	background-color: #333333;
 	position: absolute;
-	top:511%;
+	top:553%;
 	left:50%;
 }
 .name{font-family: 'Roboto Condensed';
@@ -280,6 +280,6 @@ color:white
   position: absolute;
   top: 411%;
   left: 50%;
-  height:100%;
+  height:143%;
   overflow: scroll;
 }
