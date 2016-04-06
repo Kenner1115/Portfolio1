@@ -1,34 +1,34 @@
 body{
 
-	
-	width:100%;
+  
+  width:100%;
 background: white;
   text-align: center;
   height: 100%;
   overflow: scroll;
 }
 html{
-	height:100%;
-	width:100%;
-	background: white;
+  height:100%;
+  width:100%;
+  background: white;
   text-align: center;
   height: 100%;
   overflow: scroll;
   background-color: white;
 }
 .container{
-	height:100%;
-	width:100%;
-	position: absolute;
+  height:100%;
+  width:100%;
+  position: absolute;
  overflow-x: hidden;
 }
 
 .gray{
-	height:90%;
-	width:110%;
-	background-color: #333333;
-	position: absolute;
-	 display: block;
+  height:90%;
+  width:110%;
+  background-color: #333333;
+  position: absolute;
+   display: block;
     float: left;
     top:-10%;
     left:-2%;
@@ -36,32 +36,32 @@ z-index: 1;
 }
     
 .orange{
-	height:130%;
-	width:52%;
-	background-color: #F7B801;
-	position: absolute;
-	 display: block;
+  height:130%;
+  width:52%;
+  background-color: #F7B801;
+  position: absolute;
+   display: block;
     float: left;
     clear:left;
     top:80%;
     overflow: scroll;
    right:50%;
-	
+  
 }
 .buttons{
 position: absolute;
 top:80%;
 left:50%;
-	color:#F7B801;
-	font-family: 'Droid Sans', sans-serif;
-	z-index: 2;
+  color:#F7B801;
+  font-family: 'Droid Sans', sans-serif;
+  z-index: 2;
 }
 
 .svg-wrapper {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-	  margin: 0 auto;
+    margin: 0 auto;
   width: 350px;  
   z-index: 2;
 }
@@ -92,7 +92,7 @@ left:50%;
   z-index: 2;
 }
 .about{
-	 font-family: 'Roboto Condensed';
+   font-family: 'Roboto Condensed';
   font-size: 300%;
   line-height: 32px;
   letter-spacing: 8px;
@@ -102,22 +102,22 @@ left:50%;
   color: white;
 }
 .whiteabout{
-		height:130%;
-	width:50%;
-	background-color: white;
-	position: absolute;
-	 display: block;
-	 left:50%;
+    height:130%;
+  width:50%;
+  background-color: white;
+  position: absolute;
+   display: block;
+   left:50%;
     top:81%;
     overflow: hidden;
     z-index: 0;
 }
 .work{
-		height:100%;
-	width:50%;
-	background-color: white;
-	position: absolute;
-	 display: block;
+    height:100%;
+  width:50%;
+  background-color: white;
+  position: absolute;
+   display: block;
     float: left;
     clear:left;
     top:211%;
@@ -126,7 +126,7 @@ left:50%;
 
 }
 .worktext{
-	font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed';
   font-size: 300%;
   line-height: 32px;
   letter-spacing: 8px;
@@ -149,6 +149,7 @@ position: relative;
     overflow: scroll;
     right:50%;
     background-color: #F7B801;
+    z-index: 3;
    
 }
 .webtext{
@@ -170,9 +171,10 @@ text-align: center;
    display: block;
     float: left;
     clear:left;
-    top:411%;
+    top:380%;
     overflow: scroll;
     right:50%;
+    z-index: 0;
    
      
 }
@@ -188,11 +190,11 @@ text-align: center;
   transform: translateY(-50%);
 }
 .pictures{
-	 height:101%;
-	width:55%;
-	position: absolute;
-	 display: block;
-	 left:50%;
+   height:101%;
+  width:55%;
+  position: absolute;
+   display: block;
+   left:50%;
     top:210%;
     overflow: scroll;
     z-index: 0;
@@ -203,11 +205,12 @@ height:50%;
 width:50%;
 background-color:#333333;
 position: absolute;
-top:553%;
+top:511%;
 right:50%;
+z-index: 3;
 }
 .contacttext{
-	font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed';
   font-size: 300%;
   line-height: 32px;
   letter-spacing: 8px;
@@ -217,12 +220,12 @@ right:50%;
   color: #F7B801;
 }
 .contactwhite{
-	width:55%;
-	height:50%;
-	background-color: #333333;
-	position: absolute;
-	top:553%;
-	left:50%;
+  width:55%;
+  height:50%;
+  background-color: #333333;
+  position: absolute;
+  top:511%;
+  left:50%;
 }
 .name{font-family: 'Roboto Condensed';
   font-size: 200%;
@@ -235,7 +238,7 @@ right:50%;
 
 }
 .phone{
-	font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed';
   font-size: 100%;
   line-height: 32px;
   letter-spacing: 4px;
@@ -245,7 +248,7 @@ right:50%;
   color: white;
 }
 .email{
-	font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed';
   font-size: 100%;
   line-height: 32px;
   letter-spacing: 4px;
@@ -255,7 +258,7 @@ right:50%;
   color: white;
 }
 .sentence{
-		font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed';
   font-size: 120%;
   line-height: 32px;
   letter-spacing: 4px;
@@ -276,10 +279,37 @@ color:white
   width: 55%;
   overflow: scroll;
 }
-.graphicpictures{
+.graphicpictures {
   position: absolute;
   top: 411%;
   left: 50%;
-  height:143%;
+  height:100%;
   overflow: scroll;
+}
+.scartext {
+  font-family: 'Roboto Condensed';
+  font-size: 400%;
+  line-height: 32px;
+  color: black;
+}
+.seniortext {
+  font-family: 'Roboto Condensed';
+  font-size: 400%;
+  line-height: 32px;
+  color: black;
+}
+.imagescontainer {
+  height:100%;
+  width:100%;
+}
+.explain {
+  font-family: 'Roboto Condensed';
+  font-size: 100%;
+  line-height: 32px;
+  color: black;
+  width:50%;
+  text-align:center;
+  position: relative;
+  left:25%;
+  top: -5%;
 }
