@@ -1,0 +1,15 @@
+.shapetop{
+  height: 150%;
+  width:100%;
+  background-color:#552537;
+  position: absolute;
+  padding: -10%;
+  top:-5%;
+  }
+  body{overflow-x:hidden;
+  	height:100%;
+  	width:100%;}
+  	html{
+  		height:100%;
+  		width:100%;
+  	}

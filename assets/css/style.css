@@ -190,12 +190,12 @@ text-align: center;
   transform: translateY(-50%);
 }
 .pictures{
-   height:101%;
+   height:100%;
   width:55%;
   position: absolute;
    display: block;
    left:50%;
-    top:210%;
+    top:410%;
     overflow: scroll;
     z-index: 0;
 }
@@ -281,7 +281,7 @@ color:white
 }
 .graphicpictures {
   position: absolute;
-  top: 411%;
+  top: 211%;
   left: 50%;
   height:100%;
   overflow: scroll;
@@ -313,3 +313,35 @@ color:white
   left:25%;
   top: -5%;
 }
+.book {
+  font-family: 'Roboto Condensed';
+  font-size: 400%;
+  line-height: 32px;
+  color: black;
+}
+#blue{
+  outline:#b0b0b0 1px solid;
+  margin: 5% 5% 24% 5%;
+  position: relative;
+  box-shadow: 20px 20px 10px #888888;
+
+}
+#yellow{
+  outline:#b0b0b0 1px solid;
+  margin: 5%;
+  box-shadow: 20px 20px 10px #888888;
+}
+#contents{
+  outline:#b0b0b0 1px solid;
+  margin: 5%;
+  box-shadow: 20px 20px 10px #888888;
+}
+
+#cover{
+  
+  box-shadow: 20px 20px 10px #888888;
+
+}
+
+
+
