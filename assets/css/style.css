@@ -36,16 +36,16 @@ z-index: 1;
 }
     
 .orange{
-  height:130%;
-  width:52%;
+  height:132%;
+  width:30%;
   background-color: #F7B801;
   position: absolute;
    display: block;
-    float: left;
-    clear:left;
+    float: right;
+    clear:right;
     top:80%;
     overflow: scroll;
-   right:50%;
+   right:75%;
   
 }
 .buttons{
@@ -93,7 +93,7 @@ left:50%;
 }
 .about{
    font-family: 'Roboto Condensed';
-  font-size: 300%;
+  font-size: 200%;
   line-height: 32px;
   letter-spacing: 8px;
   position: absolute;
@@ -103,32 +103,33 @@ left:50%;
 }
 .whiteabout{
     height:130%;
-  width:50%;
+  width:75%;
   background-color: white;
   position: absolute;
    display: block;
-   left:50%;
+   left:25%;
     top:81%;
     overflow: hidden;
     z-index: 0;
+    padding: 1%;
 }
 .work{
     height:100%;
-  width:50%;
-  background-color: white;
+  width:25%;
+  background-color: #333333;
   position: absolute;
    display: block;
     float: left;
     clear:left;
     top:211%;
     overflow: scroll;
-    right:50%;
+    right:75%;
 
 }
 .worktext{
   font-family: 'Roboto Condensed';
-  font-size: 300%;
-  line-height: 32px;
+  font-size: 200%;
+  line-height: 40px;
   letter-spacing: 8px;
 text-align: center;
 position: relative;
@@ -136,10 +137,11 @@ position: relative;
   transform: translateY(-50%);
   color: #F7B801;
   min-width: 100%;
+  height: 2em;
 }
 .web{
     height:100%;
-  width:50%;
+  width:25%;
   background-color: white;
   position: absolute;
    display: block;
@@ -147,14 +149,14 @@ position: relative;
     clear:left;
     top:311%;
     overflow: scroll;
-    right:50%;
+    right:75%;
     background-color: #F7B801;
     z-index: 3;
    
 }
 .webtext{
   font-family: 'Roboto Condensed';
-  font-size: 300%;
+  font-size: 200%;
   line-height: 32px;
   letter-spacing: 8px;
 text-align: center;
@@ -165,7 +167,7 @@ text-align: center;
 }
 .graphic{
     height:143%;
-  width:50%;
+  width:25%;
   background-color: white;
   position: absolute;
    display: block;
@@ -173,28 +175,28 @@ text-align: center;
     clear:left;
     top:380%;
     overflow: scroll;
-    right:50%;
+    right:75%;
     z-index: 0;
    
      
 }
 .graphictext{
   font-family: 'Roboto Condensed';
-  font-size: 300%;
+  font-size: 200%;
   line-height: 32px;
   letter-spacing: 8px;
 text-align: center;
   color: #F7B801;
   position: relative;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
 }
 .pictures{
    height:100%;
-  width:55%;
+  width:75%;
   position: absolute;
    display: block;
-   left:50%;
+   left:25%;
     top:410%;
     overflow: scroll;
     z-index: 0;
@@ -274,17 +276,21 @@ color:white
 .webpictures{
   position: absolute;
   top: 311%;
-  left: 50%;
-  height:100%;
-  width: 55%;
+  left: 23%;
+  height:96%;
+  width: 75%;
   overflow: scroll;
 }
 .graphicpictures {
   position: absolute;
   top: 211%;
-  left: 50%;
-  height:100%;
+  left: 25%;
+  height:96%;
   overflow: scroll;
+  margin:2px 0 2px 0;
+ padding:2px 0 2px 0;
+  border:2px 0 2px 0;
+
 }
 .scartext {
   font-family: 'Roboto Condensed';
